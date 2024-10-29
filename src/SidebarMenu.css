@@ -1,0 +1,30 @@
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 30px;
+  width: 80px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #aaa;
+  margin: 15px 0;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: #00bfff;
+}
+
+.menu-text {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+}
